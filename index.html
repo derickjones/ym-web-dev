@@ -1,40 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coming soon…</title>
-  <style>
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      font-family: system-ui, -apple-system, sans-serif;
-      background: #0d1117;
-      color: #e6edf3;
-      text-align: center;
-      padding: 2rem;
-    }
-    .card { max-width: 34rem; }
-    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
-    p { color: #9da7b3; line-height: 1.6; }
-    code {
-      background: #161b22;
-      border: 1px solid #30363d;
-      border-radius: 6px;
-      padding: 0.1em 0.4em;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>One Up — we make websites better than CJ</title>
+  <meta name="description" content="We're better than CJ. We make websites better than CJ, and we're into website building." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-  <main class="card">
-    <h1>🤖 This page is waiting for Codex</h1>
-    <p>
-      GitHub Pages is working. Now fill in <code>prompt.txt</code>, paste it
-      into Codex cloud, merge the pull request it opens, and this placeholder
-      becomes your personal website.
-    </p>
+  <a class="skip" href="#about">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top">One Up</a>
+    <nav aria-label="Page">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#fact">Fun fact</a></li>
+        <li><a href="#github">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">One up on CJ</p>
+          <h1>We make websites better than CJ.</h1>
+          <p class="tagline">Not almost as good. One up.</p>
+          <a class="button" href="https://github.com/derickjones/ym-web-dev">See it on GitHub</a>
+        </div>
+        <figure class="scene">
+          <div class="scene-frames" role="img" aria-label="A salmon jumps up a waterfall and a bear grabs it out of the water.">
+            <img src="./assets/leap/01.jpg" alt="" width="1280" height="720" decoding="async" />
+            <img src="./assets/leap/02.jpg" alt="" width="1280" height="720" decoding="async" />
+            <img src="./assets/leap/03.jpg" alt="" width="1280" height="720" decoding="async" />
+            <img src="./assets/leap/04.jpg" alt="" width="1280" height="720" decoding="async" />
+            <img src="./assets/leap/05.jpg" alt="" width="1280" height="720" decoding="async" class="is-active" />
+            <img src="./assets/leap/06.jpg" alt="" width="1280" height="720" decoding="async" />
+            <img src="./assets/leap/07.jpg" alt="" width="1280" height="720" decoding="async" />
+            <img src="./assets/leap/08.jpg" alt="" width="1280" height="720" decoding="async" />
+          </div>
+          <button class="scene-toggle" type="button" hidden>Pause</button>
+        </figure>
+      </div>
+      <div class="stripes" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+      </div>
+    </section>
+
+    <section id="about" class="panel">
+      <div class="wrap split">
+        <div>
+          <p class="kicker">About us</p>
+          <h2>Better than CJ, on purpose.</h2>
+          <p>
+            We're better than CJ. We make websites better than CJ, and we're into website building.
+          </p>
+          <p>
+            When we're not building, we're photographing grizzly bears in Alaska, hiking, canoeing, hammocking, reading, and running.
+          </p>
+        </div>
+        <aside class="callout">
+          <p class="callout-label">The standard</p>
+          <p class="callout-line">One up.</p>
+          <p>CJ set a bar. This page clears it.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="hobbies" class="panel panel-alt">
+      <div class="wrap">
+        <p class="kicker">Hobbies</p>
+        <h2>Outdoors, pages, and the in-between.</h2>
+        <figure class="feature-photo">
+          <img src="./assets/bear-falls-john-jackson.jpg" alt="A brown bear crouches on a rock at the lip of a rushing waterfall, looking down into the water" width="1024" height="682" loading="lazy" decoding="async" />
+          <figcaption>Waiting at the falls. Photo by John Jackson Photography.</figcaption>
+        </figure>
+        <ul class="cards">
+          <li>
+            <span class="swatch swatch-orange" aria-hidden="true"></span>
+            <h3>Grizzly photography</h3>
+            <p>Taking photos of grizzly bears in Alaska.</p>
+          </li>
+          <li>
+            <span class="swatch swatch-green" aria-hidden="true"></span>
+            <h3>Hiking</h3>
+            <p>Trails, long walks, and whatever the map suggests next.</p>
+          </li>
+          <li>
+            <span class="swatch swatch-blue" aria-hidden="true"></span>
+            <h3>Canoeing</h3>
+            <p>Quiet water and a boat you paddle yourself.</p>
+          </li>
+          <li>
+            <span class="swatch swatch-yellow" aria-hidden="true"></span>
+            <h3>Hammocking</h3>
+            <p>The sport of being horizontal between two trees.</p>
+          </li>
+          <li>
+            <span class="swatch swatch-green" aria-hidden="true"></span>
+            <h3>Reading</h3>
+            <p>Pages of the paper kind, not only the kind we ship.</p>
+          </li>
+          <li>
+            <span class="swatch swatch-orange" aria-hidden="true"></span>
+            <h3>Running</h3>
+            <p>Miles on purpose, usually outside.</p>
+          </li>
+          <li>
+            <span class="swatch swatch-blue" aria-hidden="true"></span>
+            <h3>Website building</h3>
+            <p>The hobby that also happens to be the whole point.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="fact" class="fact">
+      <div class="wrap fact-inner">
+        <p class="mark mark-small" role="img" aria-label="Grizzly bear eating a fish">
+          <span class="bear" aria-hidden="true">🐻</span>
+          <span class="fish" aria-hidden="true">🐟</span>
+        </p>
+        <p class="kicker kicker-dark">Fun fact</p>
+        <h2>One of the newest web pages published.</h2>
+        <p>Fresh off the press. Newer than it looks, and already one up on CJ.</p>
+      </div>
+    </section>
+
+    <section id="github" class="panel">
+      <div class="wrap github">
+        <div>
+          <p class="kicker">GitHub</p>
+          <h2>The page lives in the repo.</h2>
+          <p>Source, history, and the newest version — all in one place.</p>
+        </div>
+        <a class="button" href="https://github.com/derickjones/ym-web-dev">github.com/derickjones/ym-web-dev</a>
+      </div>
+    </section>
   </main>
+
+  <footer>
+    <p>One Up <span aria-hidden="true">·</span> websites better than CJ <span aria-hidden="true">·</span> 🐻🐟</p>
+  </footer>
+  <script src="./script.js" defer></script>
 </body>
 </html>
