@@ -1,0 +1,33 @@
+========================================================
+HOW TO USE THIS FILE
+1. Fill in every [BRACKETED] field with your own answers.
+2. Delete this instruction block (everything above the line).
+3. Copy the whole thing and paste it into Codex.
+
+Be specific — this prompt is your ENTIRE brief. Codex only
+gets ~2 turns, so anything you leave out won't make it in.
+========================================================
+
+Build my personal "About Me" website. Here is everything you need:
+
+Name: [YOUR NAME]
+
+Tagline: [ONE SENTENCE THAT SUMS YOU UP — e.g. "Aspiring game designer who bakes too much bread"]
+
+About me: [2–4 SENTENCES: who you are, what you do or study, what you're into]
+
+My interests / hobbies: [LIST 3–6 THINGS]
+
+Vibe and colors: [e.g. "dark and minimal with a neon green accent" / "bright and playful, pastels" / "retro 90s GeoCities but tasteful"]
+
+Sections I want: [CHOOSE OR NAME YOUR OWN — e.g. About, Hobbies, Projects, Favorite things, Gallery, Contact]
+
+Links to include: [YOUR GitHub / LinkedIn / Instagram / etc. — paste the URLs, or write "none"]
+
+Fun fact about me: [ONE FUN FACT — feature it somewhere on the page]
+
+Anything else: [OPTIONAL — a quote you love, a color you hate, a pet that must appear, a favorite emoji, etc.]
+
+Requirements:
+- One polished page (index.html) that looks great on both phone and desktop.
+- Use only the info above. Don't ask me questions — make tasteful choices for anything I left vague and note them in the PR description.
