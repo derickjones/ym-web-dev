@@ -41,7 +41,10 @@
             <canvas class="falls-canvas" width="1024" height="682" aria-hidden="true"></canvas>
           </div>
           <button class="scene-toggle" type="button" hidden>Pause</button>
-          <figcaption class="scene-credit">Photo by John Jackson Photography.</figcaption>
+          <figcaption class="scene-credit">
+            Photo by John Jackson Photography.
+            Water animation by Claude Opus 5.5 in Cursor (<a href="#animation-prompt">see the prompt</a>).
+          </figcaption>
         </figure>
       </div>
       <div class="stripes" aria-hidden="true">
@@ -138,6 +141,21 @@
   </main>
 
   <footer>
+    <section id="animation-prompt" class="prompt-credit" aria-labelledby="prompt-heading">
+      <h2 id="prompt-heading">About the banner animation</h2>
+      <p>
+        The flowing water was built by <strong>Claude Opus 5.5</strong>, working in Cursor,
+        from this prompt:
+      </p>
+      <blockquote>
+        <p>“Take the John Jackson photo, move it up to the banner slot, and animate the water, make it flow.”</p>
+      </blockquote>
+      <p>
+        The code is in
+        <a href="https://github.com/derickjones/ym-web-dev/commit/476800b">commit 476800b</a>.
+        Photo by John Jackson Photography.
+      </p>
+    </section>
     <p>One Up <span aria-hidden="true">·</span> websites better than CJ <span aria-hidden="true">·</span> 🐻🐟</p>
   </footer>
   <script src="./script.js" defer></script>
